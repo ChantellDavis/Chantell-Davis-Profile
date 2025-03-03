@@ -1,0 +1,24 @@
+:root {
+    --background-color: black;
+    --primary-color: white;
+    --secondary: black;
+}
+
+.containerOne {
+    background: var(--background-color);
+    padding: 125px;
+}
+
+ .name {
+    font-size: 100px;
+    text-align: center;
+
+}
+
+.profession, .name {
+    color: var(--primary-color);
+}
+.profession{
+    opacity: 40%;
+}
+
